@@ -1,0 +1,207 @@
+@media screen and (max-width: 900px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+   
+
+    body {
+        overflow: auto;
+        font-size: 24px;
+
+    }
+
+    .logo {
+        font-size: 3vw;
+    }
+
+
+    .section_pic-container {
+        display: flex;
+        height: 250px;
+        width: 250px;
+        margin: auto 0;
+        flex: 1;
+
+
+
+    }
+
+    .title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .section_text_p2 {
+        font-size: 0.90rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .btn {
+        font-weight: 300;
+        transition: all 300ms ease;
+        padding: 0.5rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+
+    .details-container {
+
+        font-size: 1.5vw;
+
+    }
+
+    .section-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .about-pic {
+
+        display: flex;
+        height: 200px;
+        width: 200px;
+        margin: auto 0;
+
+
+    }
+
+    .skills {
+
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .works {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .w1 {
+        font-size: 15px;
+    }
+
+    .details-container {
+        padding: 1.5rem;
+        flex: 1;
+        background: rgb(219, 213, 213);
+        border-radius: 1rem;
+        border: black 1px;
+        text-align: center;
+    }
+
+    .text-container {
+
+        font-size: 1rem;
+        font-weight: 400;
+
+
+    }
+
+
+  
+
+   
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+   
+
+   
+}
+
+
+@media screen and (max-width: 500px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    .text-container {
+
+        font-size: 0.7rem;
+    }
+
+    .details-container {
+        padding: 1rem;
+
+
+    }
+
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        margin: auto 0;
+
+
+    }
+
+    .about-pic {
+
+        display: flex;
+        height: 150px;
+        width: 150px;
+        margin: auto 0;
+
+
+    }
+
+
+}
